@@ -2,7 +2,7 @@ package cap_3;
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 
-public class ex03 {
+class ex3 {
     public static void main(String[] args) {
         Scanner t = new Scanner(System.in);
         int[] num = new int[5];
