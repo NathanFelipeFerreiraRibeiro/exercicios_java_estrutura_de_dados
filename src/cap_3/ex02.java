@@ -1,13 +1,13 @@
 package cap_3;
 import java.util.Scanner;
 
-public class ex2 {
+public class ex02 {
     public static void main(String[]args) {
         Scanner t =new Scanner(System.in);
         int[] num = new int[5];
 
         System.out.println("---------------------------------");
-        System.out.println("|       INVERÇÃO DE ARRAY       |");
+        System.out.println("|       INVERSÃO DE ARRAY       |");
         System.out.println("---------------------------------\n");
 
         for (int i = 0; i< num.length; i++) {
