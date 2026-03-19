@@ -15,19 +15,19 @@ perfeito, nathan! abaixo vai a **lista COMPLETA (1–200) adaptada para Java**, 
 
 ## Sumário
 
-* [Cap. 3 — Arrays (1–30)](#cap-3--arrays-1–30)
-* [Cap. 4 — Pilhas (31–45)](#cap-4--pilhas-31–45)
-* [Cap. 5 — Filas e Deques (46–60)](#cap-5--filas-e-deques-46–60)
-* [Cap. 6 — Listas Ligadas (61–80)](#cap-6--listas-ligadas-61–80)
-* [Cap. 7 — Conjuntos (81–95)](#cap-7--conjuntos-81–95)
-* [Cap. 8 — Dicionários/Hashes (96–110)](#cap-8--dicionárioshashes-96–110)
-* [Cap. 9 — Recursão (111–120)](#cap-9--recursão-111–120)
-* [Cap. 10 — Árvores (121–140)](#cap-10--árvores-121–140)
-* [Cap. 11 — Heaps (141–150)](#cap-11--heaps-141–150)
-* [Cap. 12 — Grafos (151–165)](#cap-12--grafos-151–165)
-* [Cap. 13 — Ordenação e Busca (166–180)](#cap-13--ordenação-e-busca-166–180)
-* [Cap. 14 — Designs e Técnicas (181–195)](#cap-14--designs-e-técnicas-181–195)
-* [Cap. 15 — Complexidade (196–200)](#cap-15--complexidade-196–200)
+* [Cap. 3 — Arrays (1–30)](##cap-3--arrays-1–30)
+* [Cap. 4 — Pilhas (31–45)](##cap-4--pilhas-31–45)
+* [Cap. 5 — Filas e Deques (46–60)](##cap-5--filas-e-deques-46–60)
+* [Cap. 6 — Listas Ligadas (61–80)](##cap-6--listas-ligadas-61–80)
+* [Cap. 7 — Conjuntos (81–95)](##cap-7--conjuntos-81–95)
+* [Cap. 8 — Dicionários/Hashes (96–110)](##cap-8--dicionárioshashes-96–110)
+* [Cap. 9 — Recursão (111–120)](##cap-9--recursão-111–120)
+* [Cap. 10 — Árvores (121–140)](##cap-10--árvores-121–140)
+* [Cap. 11 — Heaps (141–150)](##cap-11--heaps-141–150)
+* [Cap. 12 — Grafos (151–165)](##cap-12--grafos-151–165)
+* [Cap. 13 — Ordenação e Busca (166–180)](##cap-13--ordenação-e-busca-166–180)
+* [Cap. 14 — Designs e Técnicas (181–195)](##cap-14--designs-e-técnicas-181–195)
+* [Cap. 15 — Complexidade (196–200)](##cap-15--complexidade-196–200)
 
 ---
 
