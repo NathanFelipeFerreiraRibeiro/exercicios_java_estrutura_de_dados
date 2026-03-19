@@ -882,7 +882,3 @@ Gere valores para funções de crescimento como `n`, `n log n`, `n²` e `2^n` em
 ### Exercício 200
 
 Implemente uma heurística para o problema do caixeiro viajante utilizando vizinho mais próximo e, em seguida, refine a rota com 2-opt. Ao final, compare a distância inicial com a distância melhorada e registre suas observações. Esse exercício encerra a lista com um problema clássico de otimização heurística.
-
----
-
-Se você quiser, no próximo passo eu posso pegar **tudo isso e organizar em Markdown final de README**, com a numeração limpa e pronto para colar direto no seu repositório.
