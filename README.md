@@ -15,22 +15,22 @@ perfeito, nathan! abaixo vai a **lista COMPLETA (1–200) adaptada para Java**, 
 
 ## Sumário
 
-* [Cap. 3 — Arrays (1–30)](##cap-3--arrays-1–30)
-* [Cap. 4 — Pilhas (31–45)](##cap-4--pilhas-31–45)
-* [Cap. 5 — Filas e Deques (46–60)](##cap-5--filas-e-deques-46–60)
-* [Cap. 6 — Listas Ligadas (61–80)](##cap-6--listas-ligadas-61–80)
-* [Cap. 7 — Conjuntos (81–95)](##cap-7--conjuntos-81–95)
-* [Cap. 8 — Dicionários/Hashes (96–110)](##cap-8--dicionárioshashes-96–110)
-* [Cap. 9 — Recursão (111–120)](##cap-9--recursão-111–120)
-* [Cap. 10 — Árvores (121–140)](##cap-10--árvores-121–140)
-* [Cap. 11 — Heaps (141–150)](##cap-11--heaps-141–150)
-* [Cap. 12 — Grafos (151–165)](##cap-12--grafos-151–165)
-* [Cap. 13 — Ordenação e Busca (166–180)](##cap-13--ordenação-e-busca-166–180)
-* [Cap. 14 — Designs e Técnicas (181–195)](##cap-14--designs-e-técnicas-181–195)
-* [Cap. 15 — Complexidade (196–200)](##cap-15--complexidade-196–200)
+* [Cap. 3 — Arrays (1–30)](#cap-3--arrays-1–30)
+* [Cap. 4 — Pilhas (31–45)](#cap-4--pilhas-31–45)
+* [Cap. 5 — Filas e Deques (46–60)](#cap-5--filas-e-deques-46–60)
+* [Cap. 6 — Listas Ligadas (61–80)](#cap-6--listas-ligadas-61–80)
+* [Cap. 7 — Conjuntos (81–95)](#cap-7--conjuntos-81–95)
+* [Cap. 8 — Dicionários/Hashes (96–110)](#cap-8--dicionárioshashes-96–110)
+* [Cap. 9 — Recursão (111–120)](#cap-9--recursão-111–120)
+* [Cap. 10 — Árvores (121–140)](#cap-10--árvores-121–140)
+* [Cap. 11 — Heaps (141–150)](#cap-11--heaps-141–150)
+* [Cap. 12 — Grafos (151–165)](#cap-12--grafos-151–165)
+* [Cap. 13 — Ordenação e Busca (166–180)](#cap-13--ordenação-e-busca-166–180)
+* [Cap. 14 — Designs e Técnicas (181–195)](#cap-14--designs-e-técnicas-181–195)
+* [Cap. 15 — Complexidade (196–200)](#cap-15--complexidade-196–200)
 
 ---
-
+<a id="cap-3--arrays-130"></a>
 ## Cap. 3 — Arrays (1–30)
 
 **Convenções:** use `int[]`, `double[]`, `String[]` e `List<T>` quando fizer sentido. Não usar bibliotecas de ordenação prontas quando o exercício pedir o algoritmo.
@@ -156,7 +156,7 @@ Crie um algoritmo que gere a sequência de Fibonacci até um determinado número
 Implemente um programa que receba uma matriz quadrada e calcule a soma dos elementos da diagonal principal e da diagonal secundária. O algoritmo deve percorrer a matriz identificando corretamente quais posições pertencem a cada diagonal e, se desejar, tratar o caso do elemento central em matrizes de ordem ímpar para evitar soma duplicada. O objetivo é consolidar o uso de matrizes e relações entre índices de linha e coluna.
 
 ---
-
+<a id="capitulo-4--pilhas"></a>
 ## Capítulo 4 — Pilhas
 
 ### Exercício 31
@@ -220,7 +220,7 @@ Melhore a sua implementação de pilha adicionando um método `toString()` que p
 Realize um teste de estresse com sua implementação de pilha, empilhando e desempilhando um milhão de inteiros e medindo o tempo total gasto nessas operações. Em seguida, registre observações sobre o desempenho da estrutura, possíveis gargalos e comportamento do consumo de memória. Esse exercício aproxima o estudo de estruturas de dados de cenários mais próximos do uso real e da análise empírica de desempenho.
 
 ---
-
+<a id="capitulo-5--filas-e-deques"></a>
 ## Capítulo 5 — Filas e Deques
 
 ### Exercício 46
@@ -284,7 +284,7 @@ Crie um algoritmo capaz de inverter a ordem dos elementos de uma fila utilizando
 Implemente uma simulação de fila de impressão em que cada documento possua uma prioridade numérica, sendo que valores menores representam maior urgência. O sistema deve decidir qual documento será impresso antes com base nessa prioridade, e não apenas na ordem de chegada. O exercício aproxima o estudo de filas de problemas administrativos e de sistemas operacionais.
 
 ---
-
+<a id="capitulo-6--listas-ligadas"></a>
 ## Capítulo 6 — Listas Ligadas
 
 ### Exercício 61
@@ -368,7 +368,7 @@ Desenvolva um método que compare duas listas ligadas e determine se elas possue
 Implemente um algoritmo que receba duas listas ligadas já ordenadas e produza uma terceira lista também ordenada, contendo os elementos das duas estruturas mesclados corretamente. O exercício introduz a ideia de intercalação ordenada, bastante utilizada em algoritmos de ordenação como o merge sort.
 
 ---
-
+<a id="capitulo-7--conjuntos"></a>
 ## Capítulo 7 — Conjuntos
 
 ### Exercício 81
@@ -432,7 +432,7 @@ Implemente um multiconjunto, também chamado de bag, em que um mesmo elemento po
 Desenvolva um algoritmo que calcule a interseção entre três conjuntos simultaneamente, retornando apenas os elementos que estejam presentes nos três. O exercício expande o raciocínio de operações entre conjuntos para múltiplas coleções.
 
 ---
-
+<a id="capitulo-8--dicionarios-e-hashes"></a>
 ## Capítulo 8 — Dicionários e Hashes
 
 ### Exercício 96
@@ -496,7 +496,7 @@ Desenvolva um índice invertido de documentos no formato `termo -> lista de ids`
 Implemente a persistência de um mapa em arquivo, utilizando serialização binária ou JSON, e crie também a rotina de recarregamento desses dados para a memória. O objetivo é mostrar como estruturas de dados podem sair do contexto temporário da execução e serem armazenadas permanentemente.
 
 ---
-
+<a id="capitulo-9--recursao"></a>
 ## Capítulo 9 — Recursão
 
 ### Exercício 111
@@ -540,7 +540,7 @@ Crie uma função recursiva que determine o maior valor presente em um array. O 
 Implemente a multiplicação de dois inteiros positivos utilizando apenas somas recursivas, sem usar diretamente o operador `*`. Esse exercício demonstra como uma operação aparentemente simples pode ser decomposta em chamadas recursivas menores.
 
 ---
-
+<a id="capitulo-10--arvores"></a>
 ## Capítulo 10 — Árvores
 
 ### Exercício 121
@@ -624,7 +624,7 @@ Crie uma função que determine o nível ou profundidade de um nó específico e
 Implemente um método que compare duas árvores e verifique se elas são idênticas, isto é, se possuem exatamente a mesma forma e os mesmos valores nas mesmas posições. O exercício trabalha comparação estrutural recursiva.
 
 ---
-
+<a id="capitulo-11--heaps"></a>
 ## Capítulo 11 — Heaps
 
 ### Exercício 141
@@ -668,7 +668,7 @@ Crie o algoritmo Heap Sort utilizando sua max-heap para ordenar um array. O exer
 Realize um experimento comparando o tempo de execução do heap sort com o quick sort em arrays grandes, registrando observações sobre desempenho em diferentes tamanhos de entrada. O foco está em análise empírica de algoritmos.
 
 ---
-
+<a id="capitulo-12--grafos"></a>
 ## Capítulo 12 — Grafos
 
 ### Exercício 151
@@ -732,7 +732,7 @@ Desenvolva um algoritmo para calcular menores caminhos em um DAG utilizando orde
 Implemente a ordenação topológica utilizando o algoritmo de Kahn ou DFS com pós-ordem. Esse exercício é essencial para resolver problemas de dependência entre tarefas, módulos ou etapas.
 
 ---
-
+<a id="capitulo-13--ordenacao-e-busca"></a>
 ## Capítulo 13 — Ordenação e Busca
 
 ### Exercício 166
@@ -796,7 +796,7 @@ Implemente o algoritmo Fisher-Yates para embaralhar um array e, em seguida, tent
 Crie uma ordenação multi-chave para objetos `Pessoa`, priorizando sobrenome, depois nome e, por fim, idade. O exercício reforça composição de comparadores e ordenação de objetos com múltiplos critérios.
 
 ---
-
+<a id="capitulo-14--designs-e-tecnicas"></a>
 ## Capítulo 14 — Designs e Técnicas
 
 ### Exercício 181
@@ -860,7 +860,7 @@ Refatore um processamento de coleção para o estilo funcional com Streams, calc
 Crie um pipeline real com Streams a partir de uma lista de pedidos, calculando faturamento por categoria e ticket médio por agrupamento. O exercício aproxima a API funcional do Java de situações comuns em sistemas de negócio.
 
 ---
-
+<a id="capitulo-15--complexidade"></a>
 ## Capítulo 15 — Complexidade
 
 ### Exercício 196
