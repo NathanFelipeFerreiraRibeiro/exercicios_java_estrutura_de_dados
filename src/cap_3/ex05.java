@@ -6,6 +6,7 @@ public class ex05 {
         Scanner t = new Scanner(System.in);
         int[] num = new int[5];
         int[] num2 = new int[6];
+        int axl = 0;
 
         System.out.println("---------------------------------------");
         System.out.println("|       VALORES ÍMPARES E PARES       |");
@@ -38,7 +39,25 @@ public class ex05 {
         System.out.print("\nArray com novo número na primeira posição: ");
 
         for (int i = 0; i < num2.length; i++) {
-            if (i < num.length - 1) {
+            if (i < num2.length - 1) {
+                System.out.print(num2[i] + ", ");
+            } else {
+                System.out.print(num2[i] + ".");
+            }
+        }
+
+        System.out.println("\n\nArray com novo número na última posição: ");
+
+        axl = num2[0];
+
+        for(int i = 0; i < num2.length - 1; i++) {
+            num2[i] = num2[i+1];
+        }
+
+        num2[num2.length - 1] = axl;
+
+        for (int i = 0; i < num2.length; i++) {
+            if (i < num2.length-1) {
                 System.out.print(num2[i] + ", ");
             } else {
                 System.out.print(num2[i] + ". ");
